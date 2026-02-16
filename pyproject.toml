@@ -1,0 +1,9 @@
+[project]
+name = "vnlive"
+version = "0.1.0"
+description = "Umineko simulator"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "wand>=0.6.13",
+]
