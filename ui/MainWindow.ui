@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Sans Serif</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Wings - VnLive</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>What's up it's me Olive in the Qt6</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWhat_s">
+    <property name="title">
+     <string>What's</string>
+    </property>
+    <addaction name="actionUwu"/>
+    <addaction name="separator"/>
+    <addaction name="actionAwa"/>
+   </widget>
+   <widget class="QMenu" name="menuThis">
+    <property name="title">
+     <string>This</string>
+    </property>
+   </widget>
+   <addaction name="menuWhat_s"/>
+   <addaction name="menuThis"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUwu">
+   <property name="text">
+    <string>Uwu</string>
+   </property>
+  </action>
+  <action name="actionAwa">
+   <property name="text">
+    <string>Awa</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

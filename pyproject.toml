@@ -5,5 +5,7 @@ description = "Umineko simulator"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "pyglet>=2.1.13",
+    "pyqt6>=6.10.2",
     "wand>=0.6.13",
 ]
